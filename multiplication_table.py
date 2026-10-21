@@ -16,7 +16,5 @@ def tabla_de_multiplicar(n):
 n = 7
 tabla = tabla_de_multiplicar(n)
 print(f"Tabla de multiplicar del {n}:")
-i = 1w
-for valor in tabla:
-    print(f"{n}x{i}={valor}")
-    i += 1
+for i, valor in enumerate(tabla, start=1):
+    print(f"{n} x {i} = {valor}")
