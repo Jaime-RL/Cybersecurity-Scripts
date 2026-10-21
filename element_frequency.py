@@ -1,9 +1,9 @@
 def contador_elementos(lista):
     """
-    Esta función cuenta la cantidad de elementos en una lista.
+    Cuenta cuántas veces aparece cada elemento de una lista usando un diccionario.
 
-    :param lista: La lista de la cual se quiere contar los elementos.
-    :return: La cantidad de elementos en la lista.
+    :param lista: La lista cuyos elementos se quieren contar.
+    :return: Diccionario {elemento: número de apariciones}.
     """
 
     hashmap = {}
